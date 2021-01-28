@@ -1,0 +1,41 @@
+/* animations */
+
+@keyframes slidefromleft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slidefromright {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slidefromtop {
+    0% {
+        transform: translatey(-100%);
+    }
+
+    100% {
+        transform: translatey(0);
+    }
+}
+
+@keyframes slidefrombottom {
+    0% {
+        transform: translatey(100%);
+    }
+
+    100% {
+        transform: translatey(0);
+    }
+}

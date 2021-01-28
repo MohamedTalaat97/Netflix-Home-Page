@@ -1,0 +1,38 @@
+@charset 'utf-8';
+@import 'base';
+@import 'anim';
+@import 'media';
+@import 'utill';
+@import 'var';
+
+.showcase {
+
+    background: url(../img/wall.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+
+    img {
+        width: 200px;
+    }
+
+    .showcase-top {
+        display: flex;
+        justify-content: space-between;
+        padding: 2%;
+
+    }
+
+    .showcase-content {
+        text-align: center;
+        padding-top: 20%;
+    }
+
+    .btn {
+        background-color: $primary;
+        height: 40px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+}
